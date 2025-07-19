@@ -64,14 +64,17 @@ export const MenuItemCard = ({
       case 'premium': return 'bg-yellow-500 text-black';
       case 'seasonal': return 'bg-green-500 text-white';
       case 'exclusive': return 'bg-purple-500 text-white';
-      default: return 'bg-muted text-muted-foreground';
+      case 'no-sugar': return 'bg-blue-500 text-white';
+      case 'no-egg': return 'bg-orange-500 text-white';
+      case 'vegan': return 'bg-green-600 text-white';
+      default: return 'bg-bakery-pink text-white';
     }
   };
 
   return (
     <Card className={`h-full transition-all duration-200 hover:shadow-lg ${!item.isAvailable ? 'opacity-50' : ''}`}>
       <CardHeader className="p-4">
-        <div className="aspect-square bg-bakery-cream rounded-lg mb-3 flex items-center justify-center overflow-hidden">
+        <div className="aspect-square bg-bakery-soft-pink rounded-lg mb-3 flex items-center justify-center overflow-hidden h-32 w-32 mx-auto">
           {item.image ? (
             <img 
               src={item.image} 
@@ -79,7 +82,7 @@ export const MenuItemCard = ({
               className="w-full h-full object-cover"
             />
           ) : (
-            <div className="text-bakery-brown text-4xl">🧁</div>
+            <div className="text-bakery-pink text-3xl">🧁</div>
           )}
         </div>
         
