@@ -8,39 +8,39 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 35 20% 97%;
-    --foreground: 25 40% 15%;
+    --background: 330 60% 98%;
+    --foreground: 320 30% 20%;
 
     --card: 0 0% 100%;
-    --card-foreground: 25 40% 15%;
+    --card-foreground: 320 30% 20%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 25 40% 15%;
+    --popover-foreground: 320 30% 20%;
 
-    --primary: 25 60% 35%;
-    --primary-foreground: 35 20% 97%;
+    --primary: 320 50% 50%;
+    --primary-foreground: 330 60% 98%;
 
-    --secondary: 30 40% 85%;
-    --secondary-foreground: 25 40% 15%;
+    --secondary: 325 40% 90%;
+    --secondary-foreground: 320 30% 20%;
 
-    --muted: 30 20% 92%;
-    --muted-foreground: 25 20% 45%;
+    --muted: 325 25% 95%;
+    --muted-foreground: 320 20% 50%;
 
-    --accent: 35 75% 65%;
-    --accent-foreground: 25 40% 15%;
+    --accent: 310 60% 70%;
+    --accent-foreground: 320 30% 20%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 30 30% 88%;
-    --input: 30 30% 88%;
-    --ring: 25 60% 35%;
+    --border: 325 30% 88%;
+    --input: 325 30% 88%;
+    --ring: 320 50% 50%;
 
-    --bakery-brown: 25 60% 35%;
-    --bakery-cream: 35 30% 90%;
-    --bakery-orange: 35 75% 65%;
-    --bakery-warm: 30 40% 85%;
-    --bakery-deep: 20 40% 25%;
+    --bakery-pink: 320 50% 50%;
+    --bakery-light-pink: 325 40% 90%;
+    --bakery-soft-pink: 330 60% 95%;
+    --bakery-accent: 310 60% 70%;
+    --bakery-deep: 315 40% 30%;
 
     --radius: 0.5rem;
 

@@ -53,10 +53,10 @@ export default {
 					foreground: 'hsl(var(--card-foreground))'
 				},
 				bakery: {
-					brown: 'hsl(var(--bakery-brown))',
-					cream: 'hsl(var(--bakery-cream))',
-					orange: 'hsl(var(--bakery-orange))',
-					warm: 'hsl(var(--bakery-warm))',
+					pink: 'hsl(var(--bakery-pink))',
+					'light-pink': 'hsl(var(--bakery-light-pink))',
+					'soft-pink': 'hsl(var(--bakery-soft-pink))',
+					accent: 'hsl(var(--bakery-accent))',
 					deep: 'hsl(var(--bakery-deep))'
 				},
 				sidebar: {
