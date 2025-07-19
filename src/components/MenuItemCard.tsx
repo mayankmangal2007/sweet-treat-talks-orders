@@ -61,12 +61,20 @@ export const MenuItemCard = ({
   const getTagColor = (tag: string) => {
     switch (tag) {
       case 'best-seller': return 'bg-red-500 text-white';
-      case 'premium': return 'bg-yellow-500 text-black';
+      case 'premium': return 'bg-yellow-500 text-white';
       case 'seasonal': return 'bg-green-500 text-white';
       case 'exclusive': return 'bg-purple-500 text-white';
       case 'no-sugar': return 'bg-blue-500 text-white';
+      case 'no sugar': return 'bg-blue-500 text-white';
       case 'no-egg': return 'bg-orange-500 text-white';
+      case 'no egg': return 'bg-orange-500 text-white';
+      case 'no-refined-flour': return 'bg-teal-500 text-white';
+      case 'no refined flour': return 'bg-teal-500 text-white';
+      case 'no-palm-oil': return 'bg-pink-500 text-white';
+      case 'no palm oil': return 'bg-pink-500 text-white';
       case 'vegan': return 'bg-green-600 text-white';
+      case 'gluten-free': return 'bg-indigo-500 text-white';
+      case 'gluten free': return 'bg-indigo-500 text-white';
       default: return 'bg-bakery-pink text-white';
     }
   };
